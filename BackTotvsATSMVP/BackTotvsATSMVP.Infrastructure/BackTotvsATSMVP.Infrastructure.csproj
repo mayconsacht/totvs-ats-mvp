@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Firestore" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackTotvsATSMVP.CrossCutting\BackTotvsATSMVP.CrossCutting.csproj" />
+    <ProjectReference Include="..\BackTotvsATSMVP.Domain\BackTotvsATSMVP.Domain.csproj" />
+  </ItemGroup>
+</Project>

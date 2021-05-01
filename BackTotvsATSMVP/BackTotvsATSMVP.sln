@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTotvsATSMVP.API", "BackTotvsATSMVP.API\BackTotvsATSMVP.API.csproj", "{67664642-6626-4475-9BCC-60743133C7B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F59DA2DD-C65E-46FB-8DB6-CB5566198185}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTotvsATSMVP.Domain", "BackTotvsATSMVP.Domain\BackTotvsATSMVP.Domain.csproj", "{3FC001D1-924D-455B-8C74-ECEF4BFDE543}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTotvsATSMVP.CrossCutting", "BackTotvsATSMVP.CrossCutting\BackTotvsATSMVP.CrossCutting.csproj", "{5234828D-C2C6-4A5F-B006-5CDED52D50B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTotvsATSMVP.Infrastructure", "BackTotvsATSMVP.Infrastructure\BackTotvsATSMVP.Infrastructure.csproj", "{F6FE3A57-A002-42EA-A239-2D2CCA816FCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTotvsATSMVP.Application", "BackTotvsATSMVP.Application\BackTotvsATSMVP.Application.csproj", "{896646FE-53E7-4C0C-801E-967D1F7F786B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
