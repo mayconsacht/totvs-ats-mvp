@@ -1,0 +1,16 @@
+<section>
+  <ng-container *ngIf="user; else login">
+    <div class="po-wrapper">
+      <po-toolbar p-title="TOTVS ATS MVP"></po-toolbar>
+      <po-menu [p-menus]="menus"></po-menu>
+      <po-page-default>
+        <router-outlet></router-outlet>
+      </po-page-default>
+    </div>
+  </ng-container>
+  <ng-template #login>
+    <po-page-default>
+      <router-outlet></router-outlet>
+    </po-page-default>
+  </ng-template>
+</section>
